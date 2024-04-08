@@ -18,6 +18,8 @@ app = CTk()
 app.geometry("500x400")
 app.title("urmom")
 
+app.iconbitmap('chad.ico')
+
 customFont = ("Helvetica", 20, "bold")
 
 btn = CTkButton(master=app, text="ur mom", fg_color="#9966CC", hover_color="#5E5A80", corner_radius=32, font=customFont)
